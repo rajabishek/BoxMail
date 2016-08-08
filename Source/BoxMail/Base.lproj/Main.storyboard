@@ -266,7 +266,7 @@
         <!--Second View Controller-->
         <scene sceneID="4LA-uk-t17">
             <objects>
-                <viewController id="xU7-rU-4Zf" customClass="SecondViewController" customModule="BoxMail" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SecondViewController" id="xU7-rU-4Zf" customClass="SecondViewController" customModule="BoxMail" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fmb-qv-SRm"/>
                         <viewControllerLayoutGuide type="bottom" id="HoQ-53-nhj"/>
@@ -284,7 +284,7 @@
         <!--Third View Controller-->
         <scene sceneID="mFO-0z-aah">
             <objects>
-                <viewController id="1pq-k5-Z5i" customClass="ThirdViewController" customModule="BoxMail" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ThirdViewController" id="1pq-k5-Z5i" customClass="ThirdViewController" customModule="BoxMail" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jU2-Xc-f4v"/>
                         <viewControllerLayoutGuide type="bottom" id="GXU-2P-0qh"/>
