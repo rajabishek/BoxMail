@@ -54,14 +54,70 @@
 		CC7B23E31D58F92D0091B6EF /* BoxMail */ = {
 			isa = PBXGroup;
 			children = (
-				CC7B23E41D58F92D0091B6EF /* AppDelegate.swift */,
-				CC7B23E81D58F92D0091B6EF /* Main.storyboard */,
-				CC7B23EE1D58F92D0091B6EF /* Assets.xcassets */,
-				CC7B23F01D58F92D0091B6EF /* LaunchScreen.storyboard */,
-				CC7B23F31D58F92D0091B6EF /* Info.plist */,
-				CC7B23EB1D58F92D0091B6EF /* BoxMail.xcdatamodeld */,
+				CCBC08161D58FBAF00A5FB6E /* Utilities */,
+				CCBC08151D58FBA400A5FB6E /* Cells */,
+				CCBC08141D58FB9B00A5FB6E /* Resources */,
+				CCBC08131D58FB8E00A5FB6E /* Controllers */,
+				CCBC08101D58FB7100A5FB6E /* Supporting Files */,
+				CCBC08111D58FB7C00A5FB6E /* View */,
+				CCBC080F1D58FB5D00A5FB6E /* Model */,
 			);
 			path = BoxMail;
+			sourceTree = "<group>";
+		};
+		CCBC080F1D58FB5D00A5FB6E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CC7B23EB1D58F92D0091B6EF /* BoxMail.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CCBC08101D58FB7100A5FB6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC7B23E41D58F92D0091B6EF /* AppDelegate.swift */,
+				CC7B23EE1D58F92D0091B6EF /* Assets.xcassets */,
+				CC7B23F31D58F92D0091B6EF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCBC08111D58FB7C00A5FB6E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CC7B23E81D58F92D0091B6EF /* Main.storyboard */,
+				CC7B23F01D58F92D0091B6EF /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CCBC08131D58FB8E00A5FB6E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		CCBC08141D58FB9B00A5FB6E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CCBC08151D58FBA400A5FB6E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		CCBC08161D58FBAF00A5FB6E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
