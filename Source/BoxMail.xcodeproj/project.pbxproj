@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CC7B23E51D58F92D0091B6EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7B23E41D58F92D0091B6EF /* AppDelegate.swift */; };
-		CC7B23E71D58F92D0091B6EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7B23E61D58F92D0091B6EF /* ViewController.swift */; };
 		CC7B23EA1D58F92D0091B6EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC7B23E81D58F92D0091B6EF /* Main.storyboard */; };
 		CC7B23ED1D58F92D0091B6EF /* BoxMail.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC7B23EB1D58F92D0091B6EF /* BoxMail.xcdatamodeld */; };
 		CC7B23EF1D58F92D0091B6EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC7B23EE1D58F92D0091B6EF /* Assets.xcassets */; };
@@ -18,7 +17,6 @@
 /* Begin PBXFileReference section */
 		CC7B23E11D58F92D0091B6EF /* BoxMail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoxMail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC7B23E41D58F92D0091B6EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CC7B23E61D58F92D0091B6EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CC7B23E91D58F92D0091B6EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC7B23EC1D58F92D0091B6EF /* BoxMail.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BoxMail.xcdatamodel; sourceTree = "<group>"; };
 		CC7B23EE1D58F92D0091B6EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				CC7B23E41D58F92D0091B6EF /* AppDelegate.swift */,
-				CC7B23E61D58F92D0091B6EF /* ViewController.swift */,
 				CC7B23E81D58F92D0091B6EF /* Main.storyboard */,
 				CC7B23EE1D58F92D0091B6EF /* Assets.xcassets */,
 				CC7B23F01D58F92D0091B6EF /* LaunchScreen.storyboard */,
@@ -138,7 +135,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC7B23E71D58F92D0091B6EF /* ViewController.swift in Sources */,
 				CC7B23ED1D58F92D0091B6EF /* BoxMail.xcdatamodeld in Sources */,
 				CC7B23E51D58F92D0091B6EF /* AppDelegate.swift in Sources */,
 			);
@@ -292,6 +288,7 @@
 				CC7B23F81D58F92D0091B6EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
