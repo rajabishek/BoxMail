@@ -69,7 +69,11 @@ public class NavigationStripTabViewController: ButtonBarPagerTabStripViewControl
         
         let primaryEmailViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("PrimaryEmailViewController") as! PrimaryEmailViewController
         
-        return [primaryEmailViewController, SecondViewController(itemInfo: "Social"), ThirdViewController(itemInfo: "Promotions")]
+        let secondViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("SecondViewController") as! SecondViewController
+        
+        let thirdViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("ThirdViewController") as! ThirdViewController
+        
+        return [primaryEmailViewController, secondViewController, thirdViewController]
         
     }
 }
