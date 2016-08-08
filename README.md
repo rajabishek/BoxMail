@@ -12,7 +12,7 @@ BoxMail is a simple email client for the iOS platform written in Swift.
 1. `https://github.com/rajabishek/BoxMail.git`
 2. `cd BoxMail/Source`
 3. `pod install` (requires [CocoaPods](https://cocoapods.org))
-4. Open `BoxMail.xcworkspace` in Xcode 7.1.1 or higher.
+4. Open `BoxMail.xcworkspace` with Xcode.
 
 ## Contributing
 
