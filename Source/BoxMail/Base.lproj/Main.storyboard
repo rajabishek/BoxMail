@@ -49,8 +49,8 @@
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="4hp-1b-y2R"/>
-                                        <exclude reference="zYF-zV-K6J"/>
                                         <exclude reference="fOZ-11-OoS"/>
+                                        <exclude reference="zYF-zV-K6J"/>
                                     </mask>
                                 </variation>
                             </collectionView>
@@ -79,17 +79,17 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="eY1-Ne-71x"/>
-                                <exclude reference="Xki-qm-DwX"/>
-                                <exclude reference="AKZ-y5-fJQ"/>
-                                <exclude reference="dQL-Tn-V7H"/>
                                 <exclude reference="0uY-QT-lzH"/>
+                                <exclude reference="AKZ-y5-fJQ"/>
+                                <exclude reference="Ucj-hA-1Ll"/>
+                                <exclude reference="Xki-qm-DwX"/>
+                                <exclude reference="dQL-Tn-V7H"/>
+                                <exclude reference="eY1-Ne-71x"/>
                                 <exclude reference="s31-QW-Ogg"/>
                                 <exclude reference="zGO-W4-agp"/>
-                                <exclude reference="Ucj-hA-1Ll"/>
+                                <exclude reference="CVI-Kk-BPt"/>
                                 <exclude reference="Jga-s7-hI2"/>
                                 <exclude reference="jll-Rc-EV7"/>
-                                <exclude reference="CVI-Kk-BPt"/>
                                 <exclude reference="h5a-51-zEf"/>
                             </mask>
                         </variation>
@@ -159,7 +159,7 @@
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cgs-uc-spt">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cgs-uc-spt">
                                                     <rect key="frame" x="69" y="44" width="511" height="19"/>
                                                     <fontDescription key="fontDescription" name="FiraSans-Light" family="Fira Sans" pointSize="12"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -171,7 +171,7 @@
                                                     <color key="textColor" red="0.50980392159999999" green="0.50980392159999999" blue="0.50980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XWh-AM-Hjm">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XWh-AM-Hjm">
                                                     <rect key="frame" x="69" y="63" width="511" height="19"/>
                                                     <fontDescription key="fontDescription" name="FiraSans-Light" family="Fira Sans" pointSize="12"/>
                                                     <color key="textColor" red="0.50980392159999999" green="0.50980392159999999" blue="0.50980392159999999" alpha="1" colorSpace="calibratedRGB"/>

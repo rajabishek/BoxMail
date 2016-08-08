@@ -15,6 +15,15 @@
 		CC4F12481D58FEA600BC1EF4 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4F12471D58FEA600BC1EF4 /* ThirdViewController.swift */; };
 		CC4F124A1D58FF4C00BC1EF4 /* Email.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4F12491D58FF4C00BC1EF4 /* Email.swift */; };
 		CC4F124C1D58FF5300BC1EF4 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4F124B1D58FF5300BC1EF4 /* Contact.swift */; };
+		CC4F124E1D59003100BC1EF4 /* PrimaryEmailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4F124D1D59003100BC1EF4 /* PrimaryEmailTableViewCell.swift */; };
+		CC4F12591D59008E00BC1EF4 /* FiraSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC4F12511D59008E00BC1EF4 /* FiraSans-Bold.ttf */; };
+		CC4F125A1D59008E00BC1EF4 /* FiraSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC4F12521D59008E00BC1EF4 /* FiraSans-BoldItalic.ttf */; };
+		CC4F125B1D59008E00BC1EF4 /* FiraSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC4F12531D59008E00BC1EF4 /* FiraSans-Italic.ttf */; };
+		CC4F125C1D59008E00BC1EF4 /* FiraSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC4F12541D59008E00BC1EF4 /* FiraSans-Light.ttf */; };
+		CC4F125D1D59008E00BC1EF4 /* FiraSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC4F12551D59008E00BC1EF4 /* FiraSans-LightItalic.ttf */; };
+		CC4F125E1D59008E00BC1EF4 /* FiraSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC4F12561D59008E00BC1EF4 /* FiraSans-Medium.ttf */; };
+		CC4F125F1D59008E00BC1EF4 /* FiraSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC4F12571D59008E00BC1EF4 /* FiraSans-MediumItalic.ttf */; };
+		CC4F12601D59008E00BC1EF4 /* FiraSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC4F12581D59008E00BC1EF4 /* FiraSans-Regular.ttf */; };
 		CC7B23E51D58F92D0091B6EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7B23E41D58F92D0091B6EF /* AppDelegate.swift */; };
 		CC7B23EA1D58F92D0091B6EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC7B23E81D58F92D0091B6EF /* Main.storyboard */; };
 		CC7B23ED1D58F92D0091B6EF /* BoxMail.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC7B23EB1D58F92D0091B6EF /* BoxMail.xcdatamodeld */; };
@@ -33,6 +42,15 @@
 		CC4F12471D58FEA600BC1EF4 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		CC4F12491D58FF4C00BC1EF4 /* Email.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Email.swift; sourceTree = "<group>"; };
 		CC4F124B1D58FF5300BC1EF4 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		CC4F124D1D59003100BC1EF4 /* PrimaryEmailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimaryEmailTableViewCell.swift; sourceTree = "<group>"; };
+		CC4F12511D59008E00BC1EF4 /* FiraSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Bold.ttf"; sourceTree = "<group>"; };
+		CC4F12521D59008E00BC1EF4 /* FiraSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		CC4F12531D59008E00BC1EF4 /* FiraSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Italic.ttf"; sourceTree = "<group>"; };
+		CC4F12541D59008E00BC1EF4 /* FiraSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Light.ttf"; sourceTree = "<group>"; };
+		CC4F12551D59008E00BC1EF4 /* FiraSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		CC4F12561D59008E00BC1EF4 /* FiraSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Medium.ttf"; sourceTree = "<group>"; };
+		CC4F12571D59008E00BC1EF4 /* FiraSans-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-MediumItalic.ttf"; sourceTree = "<group>"; };
+		CC4F12581D59008E00BC1EF4 /* FiraSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Regular.ttf"; sourceTree = "<group>"; };
 		CC7B23E11D58F92D0091B6EF /* BoxMail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoxMail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC7B23E41D58F92D0091B6EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC7B23E91D58F92D0091B6EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -69,6 +87,29 @@
 				AF4AAA80D189BB649EE290CB /* Pods_BoxMail.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC4F124F1D59005900BC1EF4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CC4F12501D59006000BC1EF4 /* Fira Sans */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		CC4F12501D59006000BC1EF4 /* Fira Sans */ = {
+			isa = PBXGroup;
+			children = (
+				CC4F12511D59008E00BC1EF4 /* FiraSans-Bold.ttf */,
+				CC4F12521D59008E00BC1EF4 /* FiraSans-BoldItalic.ttf */,
+				CC4F12531D59008E00BC1EF4 /* FiraSans-Italic.ttf */,
+				CC4F12541D59008E00BC1EF4 /* FiraSans-Light.ttf */,
+				CC4F12551D59008E00BC1EF4 /* FiraSans-LightItalic.ttf */,
+				CC4F12561D59008E00BC1EF4 /* FiraSans-Medium.ttf */,
+				CC4F12571D59008E00BC1EF4 /* FiraSans-MediumItalic.ttf */,
+				CC4F12581D59008E00BC1EF4 /* FiraSans-Regular.ttf */,
+			);
+			name = "Fira Sans";
 			sourceTree = "<group>";
 		};
 		CC7B23D81D58F92C0091B6EF = {
@@ -146,6 +187,7 @@
 		CCBC08141D58FB9B00A5FB6E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CC4F124F1D59005900BC1EF4 /* Fonts */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -153,6 +195,7 @@
 		CCBC08151D58FBA400A5FB6E /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				CC4F124D1D59003100BC1EF4 /* PrimaryEmailTableViewCell.swift */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -228,7 +271,15 @@
 			files = (
 				CC7B23F21D58F92D0091B6EF /* LaunchScreen.storyboard in Resources */,
 				CC7B23EF1D58F92D0091B6EF /* Assets.xcassets in Resources */,
+				CC4F12601D59008E00BC1EF4 /* FiraSans-Regular.ttf in Resources */,
+				CC4F12591D59008E00BC1EF4 /* FiraSans-Bold.ttf in Resources */,
+				CC4F125B1D59008E00BC1EF4 /* FiraSans-Italic.ttf in Resources */,
+				CC4F125C1D59008E00BC1EF4 /* FiraSans-Light.ttf in Resources */,
+				CC4F125A1D59008E00BC1EF4 /* FiraSans-BoldItalic.ttf in Resources */,
+				CC4F125D1D59008E00BC1EF4 /* FiraSans-LightItalic.ttf in Resources */,
 				CC7B23EA1D58F92D0091B6EF /* Main.storyboard in Resources */,
+				CC4F125F1D59008E00BC1EF4 /* FiraSans-MediumItalic.ttf in Resources */,
+				CC4F125E1D59008E00BC1EF4 /* FiraSans-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +345,7 @@
 				CC4F12481D58FEA600BC1EF4 /* ThirdViewController.swift in Sources */,
 				CC7B23E51D58F92D0091B6EF /* AppDelegate.swift in Sources */,
 				CC4F12441D58FE6900BC1EF4 /* PrimaryEmailViewController.swift in Sources */,
+				CC4F124E1D59003100BC1EF4 /* PrimaryEmailTableViewCell.swift in Sources */,
 				CC4F124A1D58FF4C00BC1EF4 /* Email.swift in Sources */,
 				CC4F12421D58FE3000BC1EF4 /* Constants.swift in Sources */,
 			);
