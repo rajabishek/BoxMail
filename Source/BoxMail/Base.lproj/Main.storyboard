@@ -129,7 +129,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="KkV-ra-gWs">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="KkV-ra-gWs">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
@@ -144,8 +144,8 @@
                                                     <rect key="frame" x="10" y="25" width="50" height="50"/>
                                                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="50" id="QFH-xb-mDU"/>
-                                                        <constraint firstAttribute="height" constant="50" id="oX6-KR-D3m"/>
+                                                        <constraint firstAttribute="width" constant="50" id="T3G-oD-V81"/>
+                                                        <constraint firstAttribute="height" constant="50" id="lTQ-2J-6oj"/>
                                                     </constraints>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -153,7 +153,7 @@
                                                         </userDefinedRuntimeAttribute>
                                                     </userDefinedRuntimeAttributes>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Johanna Singleton" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W2Q-Pg-5MT">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Johanna Singleton" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W2Q-Pg-5MT">
                                                     <rect key="frame" x="69" y="19" width="131" height="25"/>
                                                     <fontDescription key="fontDescription" name="FiraSans-Light" family="Fira Sans" pointSize="16"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -165,8 +165,8 @@
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kFz-rx-kER">
-                                                    <rect key="frame" x="210" y="22" width="370" height="19"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kFz-rx-kER">
+                                                    <rect key="frame" x="551" y="22" width="29" height="19"/>
                                                     <fontDescription key="fontDescription" name="FiraSans-Light" family="Fira Sans" pointSize="12"/>
                                                     <color key="textColor" red="0.50980392159999999" green="0.50980392159999999" blue="0.50980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -179,20 +179,25 @@
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="kFz-rx-kER" firstAttribute="top" secondItem="bG9-mo-j6V" secondAttribute="topMargin" constant="14" id="8Ty-N3-Bj6"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="kFz-rx-kER" secondAttribute="trailing" constant="12" id="DWn-9o-OvW"/>
-                                                <constraint firstItem="kFz-rx-kER" firstAttribute="leading" secondItem="W2Q-Pg-5MT" secondAttribute="trailing" constant="10" id="Fwn-ub-6AZ"/>
-                                                <constraint firstItem="W2Q-Pg-5MT" firstAttribute="top" secondItem="bG9-mo-j6V" secondAttribute="topMargin" constant="11" id="IcI-yw-gbJ"/>
-                                                <constraint firstItem="yWU-SQ-cct" firstAttribute="leading" secondItem="bG9-mo-j6V" secondAttribute="leadingMargin" constant="2" id="Kls-PP-ipp"/>
-                                                <constraint firstItem="cgs-uc-spt" firstAttribute="top" secondItem="W2Q-Pg-5MT" secondAttribute="bottom" id="NcJ-dN-Izx"/>
-                                                <constraint firstItem="yWU-SQ-cct" firstAttribute="centerY" secondItem="bG9-mo-j6V" secondAttribute="centerY" id="b5e-Mh-eWR"/>
-                                                <constraint firstItem="XWh-AM-Hjm" firstAttribute="top" secondItem="cgs-uc-spt" secondAttribute="bottom" id="cCM-P8-O8w"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="cgs-uc-spt" secondAttribute="trailing" constant="12" id="d6Y-Si-Paf"/>
-                                                <constraint firstItem="cgs-uc-spt" firstAttribute="leading" secondItem="yWU-SQ-cct" secondAttribute="trailing" constant="9" id="k0F-QZ-M97"/>
-                                                <constraint firstItem="W2Q-Pg-5MT" firstAttribute="leading" secondItem="yWU-SQ-cct" secondAttribute="trailing" constant="9" id="mOY-Ae-69I"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="XWh-AM-Hjm" secondAttribute="trailing" constant="12" id="qIW-qo-Fv8"/>
-                                                <constraint firstItem="XWh-AM-Hjm" firstAttribute="leading" secondItem="yWU-SQ-cct" secondAttribute="trailing" constant="9" id="wa8-9u-gOR"/>
+                                                <constraint firstItem="XWh-AM-Hjm" firstAttribute="top" secondItem="cgs-uc-spt" secondAttribute="bottom" id="0Va-v3-MlU"/>
+                                                <constraint firstItem="yWU-SQ-cct" firstAttribute="centerY" secondItem="bG9-mo-j6V" secondAttribute="centerY" id="7Y5-Vo-H6o"/>
+                                                <constraint firstItem="W2Q-Pg-5MT" firstAttribute="leading" secondItem="yWU-SQ-cct" secondAttribute="trailing" constant="9" id="8aj-NB-txU"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="kFz-rx-kER" secondAttribute="trailing" constant="12" id="A1F-tx-ocg"/>
+                                                <constraint firstItem="W2Q-Pg-5MT" firstAttribute="top" secondItem="bG9-mo-j6V" secondAttribute="topMargin" constant="11" id="G5J-GI-MEH"/>
+                                                <constraint firstItem="XWh-AM-Hjm" firstAttribute="trailing" secondItem="cgs-uc-spt" secondAttribute="trailing" id="Xc1-FS-C0K"/>
+                                                <constraint firstItem="XWh-AM-Hjm" firstAttribute="leading" secondItem="yWU-SQ-cct" secondAttribute="trailing" constant="9" id="Z66-NV-bKh"/>
+                                                <constraint firstItem="cgs-uc-spt" firstAttribute="leading" secondItem="yWU-SQ-cct" secondAttribute="trailing" constant="9" id="hzc-4T-o4n"/>
+                                                <constraint firstItem="yWU-SQ-cct" firstAttribute="leading" secondItem="bG9-mo-j6V" secondAttribute="leadingMargin" constant="2" id="knL-CG-DVt"/>
+                                                <constraint firstItem="cgs-uc-spt" firstAttribute="trailing" secondItem="kFz-rx-kER" secondAttribute="trailing" id="rl5-SE-qDV"/>
+                                                <constraint firstItem="cgs-uc-spt" firstAttribute="top" secondItem="W2Q-Pg-5MT" secondAttribute="bottom" id="rlj-w4-Ggd"/>
+                                                <constraint firstItem="kFz-rx-kER" firstAttribute="top" secondItem="bG9-mo-j6V" secondAttribute="topMargin" constant="14" id="tQJ-VZ-8CT"/>
+                                                <constraint firstItem="yWU-SQ-cct" firstAttribute="top" secondItem="bG9-mo-j6V" secondAttribute="topMargin" constant="17" id="uff-QT-tj1"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="uff-QT-tj1"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="messageLabel" destination="XWh-AM-Hjm" id="dsT-7H-mLJ"/>
@@ -208,13 +213,9 @@
                                     <outlet property="delegate" destination="AjF-Hi-acV" id="XQO-oX-gHU"/>
                                 </connections>
                             </tableView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d6r-fX-IfC" customClass="DesignableButton" customModule="Spring">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d6r-fX-IfC" customClass="DesignableButton" customModule="Spring">
                                 <rect key="frame" x="529" y="504" width="46" height="46"/>
                                 <color key="backgroundColor" red="0.77647058820000003" green="0.1137254902" blue="0.2470588235" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="46" id="ksp-go-BaJ"/>
-                                    <constraint firstAttribute="height" constant="46" id="wJa-A8-r9K"/>
-                                </constraints>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" image="compose-email-icon"/>
                                 <userDefinedRuntimeAttributes>
@@ -238,14 +239,8 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="eiH-qe-CDA" firstAttribute="top" secondItem="KkV-ra-gWs" secondAttribute="bottom" id="5nY-Jo-LNt"/>
-                            <constraint firstItem="KkV-ra-gWs" firstAttribute="leading" secondItem="7EE-s3-KBS" secondAttribute="leading" id="R1V-T4-qTQ"/>
-                            <constraint firstItem="KkV-ra-gWs" firstAttribute="top" secondItem="7EE-s3-KBS" secondAttribute="top" id="Vhr-sN-euF"/>
                             <constraint firstAttribute="trailingMargin" secondItem="d6r-fX-IfC" secondAttribute="trailing" constant="25" id="bTL-Uz-5Pc"/>
                             <constraint firstItem="eiH-qe-CDA" firstAttribute="top" secondItem="d6r-fX-IfC" secondAttribute="bottom" constant="50" id="ckg-sM-tA6"/>
-                            <constraint firstItem="eiH-qe-CDA" firstAttribute="top" secondItem="d6r-fX-IfC" secondAttribute="bottom" constant="50" id="nB1-1p-F17"/>
-                            <constraint firstAttribute="trailing" secondItem="KkV-ra-gWs" secondAttribute="trailing" id="ovm-ql-OKB"/>
-                            <constraint firstAttribute="trailing" secondItem="d6r-fX-IfC" secondAttribute="trailing" constant="25" id="tIL-d5-uqz"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
@@ -283,9 +278,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="compose-email-icon" width="20" height="14"/>
+        <image name="compose-email-icon" width="17" height="18"/>
         <image name="menu-icon" width="20" height="14"/>
-        <image name="search-icon" width="20" height="14"/>
-        <image name="setting-icon" width="20" height="14"/>
+        <image name="search-icon" width="18" height="18"/>
+        <image name="setting-icon" width="18" height="18"/>
     </resources>
 </document>
