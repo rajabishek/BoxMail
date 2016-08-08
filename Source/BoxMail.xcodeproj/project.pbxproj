@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		156B98057EAD50ED5F050534 /* Pods_BoxMail.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4AAA80D189BB649EE290CB /* Pods_BoxMail.framework */; };
 		CC4F12401D58FDD200BC1EF4 /* NavigationStripTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4F123F1D58FDD200BC1EF4 /* NavigationStripTabViewController.swift */; };
+		CC4F12421D58FE3000BC1EF4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4F12411D58FE3000BC1EF4 /* Constants.swift */; };
+		CC4F12441D58FE6900BC1EF4 /* PrimaryEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4F12431D58FE6900BC1EF4 /* PrimaryEmailViewController.swift */; };
 		CC7B23E51D58F92D0091B6EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7B23E41D58F92D0091B6EF /* AppDelegate.swift */; };
 		CC7B23EA1D58F92D0091B6EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC7B23E81D58F92D0091B6EF /* Main.storyboard */; };
 		CC7B23ED1D58F92D0091B6EF /* BoxMail.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC7B23EB1D58F92D0091B6EF /* BoxMail.xcdatamodeld */; };
@@ -21,6 +23,8 @@
 		840D3C1D1B301910EB481C81 /* Pods-BoxMail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoxMail.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BoxMail/Pods-BoxMail.debug.xcconfig"; sourceTree = "<group>"; };
 		AF4AAA80D189BB649EE290CB /* Pods_BoxMail.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoxMail.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC4F123F1D58FDD200BC1EF4 /* NavigationStripTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationStripTabViewController.swift; sourceTree = "<group>"; };
+		CC4F12411D58FE3000BC1EF4 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CC4F12431D58FE6900BC1EF4 /* PrimaryEmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimaryEmailViewController.swift; sourceTree = "<group>"; };
 		CC7B23E11D58F92D0091B6EF /* BoxMail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoxMail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC7B23E41D58F92D0091B6EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC7B23E91D58F92D0091B6EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -122,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				CC4F123F1D58FDD200BC1EF4 /* NavigationStripTabViewController.swift */,
+				CC4F12431D58FE6900BC1EF4 /* PrimaryEmailViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -143,6 +148,7 @@
 		CCBC08161D58FBAF00A5FB6E /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				CC4F12411D58FE3000BC1EF4 /* Constants.swift */,
 			);
 			name = Utilities;
 			sourceTree = "<group>";
@@ -272,6 +278,8 @@
 				CC4F12401D58FDD200BC1EF4 /* NavigationStripTabViewController.swift in Sources */,
 				CC7B23ED1D58F92D0091B6EF /* BoxMail.xcdatamodeld in Sources */,
 				CC7B23E51D58F92D0091B6EF /* AppDelegate.swift in Sources */,
+				CC4F12441D58FE6900BC1EF4 /* PrimaryEmailViewController.swift in Sources */,
+				CC4F12421D58FE3000BC1EF4 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
