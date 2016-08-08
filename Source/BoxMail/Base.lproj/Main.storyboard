@@ -214,7 +214,7 @@
                                 </connections>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d6r-fX-IfC" customClass="DesignableButton" customModule="Spring">
-                                <rect key="frame" x="529" y="504" width="46" height="46"/>
+                                <rect key="frame" x="529" y="514" width="46" height="46"/>
                                 <color key="backgroundColor" red="0.77647058820000003" green="0.1137254902" blue="0.2470588235" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="46" id="KYg-at-MWj"/>
@@ -244,7 +244,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="d6r-fX-IfC" secondAttribute="trailing" constant="25" id="6hc-rO-6ZL"/>
-                            <constraint firstItem="eiH-qe-CDA" firstAttribute="top" secondItem="d6r-fX-IfC" secondAttribute="bottom" constant="50" id="HXW-Y1-M58"/>
+                            <constraint firstItem="eiH-qe-CDA" firstAttribute="top" secondItem="d6r-fX-IfC" secondAttribute="bottom" constant="40" id="HXW-Y1-M58"/>
                             <constraint firstAttribute="trailingMargin" secondItem="d6r-fX-IfC" secondAttribute="trailing" constant="25" id="bTL-Uz-5Pc"/>
                             <constraint firstItem="eiH-qe-CDA" firstAttribute="top" secondItem="d6r-fX-IfC" secondAttribute="bottom" constant="50" id="ckg-sM-tA6"/>
                         </constraints>
