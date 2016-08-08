@@ -1,4 +1,4 @@
-# BoxMail
+# BoxMail ( Work in progress )
 
 BoxMail is a simple email client for the iOS platform written in Swift.
 
