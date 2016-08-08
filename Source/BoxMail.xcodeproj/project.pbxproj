@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		156B98057EAD50ED5F050534 /* Pods_BoxMail.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4AAA80D189BB649EE290CB /* Pods_BoxMail.framework */; };
 		CC7B23E51D58F92D0091B6EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7B23E41D58F92D0091B6EF /* AppDelegate.swift */; };
 		CC7B23EA1D58F92D0091B6EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC7B23E81D58F92D0091B6EF /* Main.storyboard */; };
 		CC7B23ED1D58F92D0091B6EF /* BoxMail.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC7B23EB1D58F92D0091B6EF /* BoxMail.xcdatamodeld */; };
@@ -15,6 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22493FB8867F1372F6ED66D3 /* Pods-BoxMail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoxMail.release.xcconfig"; path = "Pods/Target Support Files/Pods-BoxMail/Pods-BoxMail.release.xcconfig"; sourceTree = "<group>"; };
+		840D3C1D1B301910EB481C81 /* Pods-BoxMail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoxMail.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BoxMail/Pods-BoxMail.debug.xcconfig"; sourceTree = "<group>"; };
+		AF4AAA80D189BB649EE290CB /* Pods_BoxMail.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoxMail.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC7B23E11D58F92D0091B6EF /* BoxMail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoxMail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC7B23E41D58F92D0091B6EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC7B23E91D58F92D0091B6EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -29,17 +33,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				156B98057EAD50ED5F050534 /* Pods_BoxMail.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		182BEFEABBB2B77F1A81F7F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				840D3C1D1B301910EB481C81 /* Pods-BoxMail.debug.xcconfig */,
+				22493FB8867F1372F6ED66D3 /* Pods-BoxMail.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		802D793C9CD2195857081AE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF4AAA80D189BB649EE290CB /* Pods_BoxMail.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CC7B23D81D58F92C0091B6EF = {
 			isa = PBXGroup;
 			children = (
 				CC7B23E31D58F92D0091B6EF /* BoxMail */,
 				CC7B23E21D58F92D0091B6EF /* Products */,
+				182BEFEABBB2B77F1A81F7F2 /* Pods */,
+				802D793C9CD2195857081AE4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,9 +151,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC7B23F61D58F92D0091B6EF /* Build configuration list for PBXNativeTarget "BoxMail" */;
 			buildPhases = (
+				5A862A763A8F65A711B9241E /* [CP] Check Pods Manifest.lock */,
 				CC7B23DD1D58F92D0091B6EF /* Sources */,
 				CC7B23DE1D58F92D0091B6EF /* Frameworks */,
 				CC7B23DF1D58F92D0091B6EF /* Resources */,
+				68E15A1D515A8E2BC3C3BFC5 /* [CP] Embed Pods Frameworks */,
+				E713C748FBC14F49ED012F3B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -185,6 +212,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A862A763A8F65A711B9241E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		68E15A1D515A8E2BC3C3BFC5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BoxMail/Pods-BoxMail-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E713C748FBC14F49ED012F3B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BoxMail/Pods-BoxMail-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CC7B23DD1D58F92D0091B6EF /* Sources */ = {
@@ -305,6 +380,7 @@
 		};
 		CC7B23F71D58F92D0091B6EF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 840D3C1D1B301910EB481C81 /* Pods-BoxMail.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BoxMail/Info.plist;
@@ -316,6 +392,7 @@
 		};
 		CC7B23F81D58F92D0091B6EF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22493FB8867F1372F6ED66D3 /* Pods-BoxMail.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BoxMail/Info.plist;

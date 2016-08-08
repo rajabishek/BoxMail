@@ -1,0 +1,31 @@
+PODS:
+  - Fakery (1.3.0):
+    - SwiftyJSON
+  - Spring (1.0.3)
+  - SwiftyJSON (2.3.2)
+  - XLPagerTabStrip (5.0.0)
+
+DEPENDENCIES:
+  - Fakery (~> 1.3)
+  - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift2`)
+  - XLPagerTabStrip (~> 5.0)
+
+EXTERNAL SOURCES:
+  Spring:
+    :branch: swift2
+    :git: https://github.com/MengTo/Spring.git
+
+CHECKOUT OPTIONS:
+  Spring:
+    :commit: 18d5c7b74489de8044e34767f856d1e574f0820e
+    :git: https://github.com/MengTo/Spring.git
+
+SPEC CHECKSUMS:
+  Fakery: 8e6f7da2feb311a90a956ab9b9b2ce72106d1787
+  Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+  XLPagerTabStrip: 87b8b705f9a7178e76a063ffaa2d70045944a965
+
+PODFILE CHECKSUM: 389155e56a6a73fe9563434e2ba752bce1b99246
+
+COCOAPODS: 1.0.1
