@@ -6,4 +6,18 @@
 //  Copyright © 2016 Raj Abishek. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+struct Email {
+    
+    var from: Contact
+    
+    var subject: String
+    
+    var message: String
+    
+    var time: NSDate
+    
+    var read: Bool
+}
+
