@@ -15,7 +15,6 @@ class ThirdViewController: UIViewController, IndicatorInfoProvider {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor.orangeColor()
     }
     
     init(itemInfo: IndicatorInfo) {
