@@ -86,7 +86,7 @@
                             <constraint firstItem="huY-oR-srM" firstAttribute="top" secondItem="Aov-c4-0w4" secondAttribute="bottom" constant="3" id="RNf-li-PlT"/>
                             <constraint firstItem="Aov-c4-0w4" firstAttribute="centerY" secondItem="sCO-70-FtU" secondAttribute="centerY" id="TGk-is-cly"/>
                             <constraint firstAttribute="trailing" secondItem="sCO-70-FtU" secondAttribute="trailing" id="Ucj-hA-1Ll"/>
-                            <constraint firstItem="huY-oR-srM" firstAttribute="centerY" secondItem="Aov-c4-0w4" secondAttribute="centerY" multiplier="0.9" id="Uze-AH-8z1"/>
+                            <constraint firstItem="huY-oR-srM" firstAttribute="centerY" secondItem="Aov-c4-0w4" secondAttribute="centerY" multiplier="0.95" id="Uze-AH-8z1"/>
                             <constraint firstAttribute="trailing" secondItem="sCO-70-FtU" secondAttribute="trailing" id="Xki-qm-DwX"/>
                             <constraint firstItem="FEL-bo-jKM" firstAttribute="leading" secondItem="uaY-vP-4Fh" secondAttribute="leading" id="Yxp-Yo-vRD"/>
                             <constraint firstItem="Aov-c4-0w4" firstAttribute="leading" secondItem="huY-oR-srM" secondAttribute="trailing" constant="5" id="b6l-Uv-rNt"/>
