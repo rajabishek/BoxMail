@@ -4,6 +4,7 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -12,6 +13,9 @@
             <string>FiraSans-Light</string>
             <string>FiraSans-Light</string>
             <string>FiraSans-Light</string>
+        </mutableArray>
+        <mutableArray key="FiraSans-Regular.ttf">
+            <string>FiraSans-Regular</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -54,20 +58,39 @@
                                     </mask>
                                 </variation>
                             </collectionView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Filter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aov-c4-0w4">
+                                <rect key="frame" x="551" y="8" width="29" height="19"/>
+                                <fontDescription key="fontDescription" name="FiraSans-Regular" family="Fira Sans" pointSize="12"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="filter-icon" translatesAutoresizingMaskIntoConstraints="NO" id="huY-oR-srM">
+                                <rect key="frame" x="534" y="12" width="12" height="8"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="12" id="hxx-wz-HOk"/>
+                                    <constraint firstAttribute="height" constant="8" id="i6k-6H-4Ij"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="sCO-70-FtU" firstAttribute="leading" secondItem="uaY-vP-4Fh" secondAttribute="leading" id="0uY-QT-lzH"/>
+                            <constraint firstItem="Aov-c4-0w4" firstAttribute="leading" secondItem="huY-oR-srM" secondAttribute="trailing" constant="15" id="1Qb-lz-3OE"/>
                             <constraint firstAttribute="trailing" secondItem="sCO-70-FtU" secondAttribute="trailing" id="719-a9-Ldg"/>
                             <constraint firstItem="HXG-Z3-BWe" firstAttribute="top" secondItem="FEL-bo-jKM" secondAttribute="bottom" id="9kI-be-Axa"/>
                             <constraint firstItem="sCO-70-FtU" firstAttribute="top" secondItem="uaY-vP-4Fh" secondAttribute="top" id="AKZ-y5-fJQ"/>
                             <constraint firstItem="FEL-bo-jKM" firstAttribute="leading" secondItem="uaY-vP-4Fh" secondAttribute="leading" id="CVI-Kk-BPt"/>
+                            <constraint firstItem="Aov-c4-0w4" firstAttribute="trailing" secondItem="sCO-70-FtU" secondAttribute="trailing" constant="-20" id="HF2-Bi-sT6"/>
                             <constraint firstAttribute="trailing" secondItem="FEL-bo-jKM" secondAttribute="trailing" id="ILT-HG-n96"/>
                             <constraint firstAttribute="trailing" secondItem="FEL-bo-jKM" secondAttribute="trailing" id="Jga-s7-hI2"/>
                             <constraint firstItem="sCO-70-FtU" firstAttribute="leading" secondItem="uaY-vP-4Fh" secondAttribute="leading" id="Kbh-m4-9bs"/>
+                            <constraint firstItem="huY-oR-srM" firstAttribute="top" secondItem="Aov-c4-0w4" secondAttribute="bottom" constant="3" id="RNf-li-PlT"/>
+                            <constraint firstItem="Aov-c4-0w4" firstAttribute="centerY" secondItem="sCO-70-FtU" secondAttribute="centerY" id="TGk-is-cly"/>
                             <constraint firstAttribute="trailing" secondItem="sCO-70-FtU" secondAttribute="trailing" id="Ucj-hA-1Ll"/>
+                            <constraint firstItem="huY-oR-srM" firstAttribute="centerY" secondItem="Aov-c4-0w4" secondAttribute="centerY" multiplier="0.9" id="Uze-AH-8z1"/>
                             <constraint firstAttribute="trailing" secondItem="sCO-70-FtU" secondAttribute="trailing" id="Xki-qm-DwX"/>
                             <constraint firstItem="FEL-bo-jKM" firstAttribute="leading" secondItem="uaY-vP-4Fh" secondAttribute="leading" id="Yxp-Yo-vRD"/>
+                            <constraint firstItem="Aov-c4-0w4" firstAttribute="leading" secondItem="huY-oR-srM" secondAttribute="trailing" constant="5" id="b6l-Uv-rNt"/>
+                            <constraint firstItem="huY-oR-srM" firstAttribute="centerY" secondItem="Aov-c4-0w4" secondAttribute="centerY" id="brE-bl-ln5"/>
                             <constraint firstItem="sCO-70-FtU" firstAttribute="top" secondItem="FKS-Pp-lqM" secondAttribute="bottom" id="dQL-Tn-V7H"/>
                             <constraint firstItem="sCO-70-FtU" firstAttribute="leading" secondItem="uaY-vP-4Fh" secondAttribute="leading" id="eY1-Ne-71x"/>
                             <constraint firstItem="HXG-Z3-BWe" firstAttribute="top" secondItem="FEL-bo-jKM" secondAttribute="bottom" id="h5a-51-zEf"/>
@@ -75,6 +98,7 @@
                             <constraint firstItem="FEL-bo-jKM" firstAttribute="top" secondItem="sCO-70-FtU" secondAttribute="bottom" id="jll-Rc-EV7"/>
                             <constraint firstAttribute="trailing" secondItem="sCO-70-FtU" secondAttribute="trailing" id="s31-QW-Ogg"/>
                             <constraint firstItem="sCO-70-FtU" firstAttribute="top" secondItem="FKS-Pp-lqM" secondAttribute="bottom" id="tHW-jC-haS"/>
+                            <constraint firstItem="huY-oR-srM" firstAttribute="top" secondItem="Aov-c4-0w4" secondAttribute="top" id="vWj-Tm-xlf"/>
                             <constraint firstItem="sCO-70-FtU" firstAttribute="leading" secondItem="uaY-vP-4Fh" secondAttribute="leading" id="zGO-W4-agp"/>
                         </constraints>
                         <variation key="default">
@@ -90,7 +114,11 @@
                                 <exclude reference="CVI-Kk-BPt"/>
                                 <exclude reference="Jga-s7-hI2"/>
                                 <exclude reference="jll-Rc-EV7"/>
+                                <exclude reference="RNf-li-PlT"/>
+                                <exclude reference="brE-bl-ln5"/>
+                                <exclude reference="vWj-Tm-xlf"/>
                                 <exclude reference="h5a-51-zEf"/>
+                                <exclude reference="1Qb-lz-3OE"/>
                             </mask>
                         </variation>
                     </view>
@@ -204,7 +232,7 @@
                                             <outlet property="nameLabel" destination="W2Q-Pg-5MT" id="gnq-bW-3jo"/>
                                             <outlet property="profileImageView" destination="yWU-SQ-cct" id="o3n-ab-BHh"/>
                                             <outlet property="subjectLabel" destination="cgs-uc-spt" id="a48-am-WBQ"/>
-                                            <outlet property="timeLabel" destination="kFz-rx-kER" id="lLH-hB-dK2"/>
+                                            <outlet property="timeLabel" destination="kFz-rx-kER" id="PgU-2w-6Xj"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -321,6 +349,7 @@
     </scenes>
     <resources>
         <image name="compose-email-icon" width="17" height="18"/>
+        <image name="filter-icon" width="12" height="8"/>
         <image name="menu-icon" width="20" height="14"/>
         <image name="search-icon" width="18" height="18"/>
         <image name="setting-icon" width="18" height="18"/>
