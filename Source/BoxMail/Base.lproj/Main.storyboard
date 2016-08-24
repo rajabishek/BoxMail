@@ -212,10 +212,14 @@
                                                 <constraint firstItem="W2Q-Pg-5MT" firstAttribute="leading" secondItem="yWU-SQ-cct" secondAttribute="trailing" constant="9" id="8aj-NB-txU"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="kFz-rx-kER" secondAttribute="trailing" constant="12" id="A1F-tx-ocg"/>
                                                 <constraint firstItem="W2Q-Pg-5MT" firstAttribute="top" secondItem="bG9-mo-j6V" secondAttribute="topMargin" constant="11" id="G5J-GI-MEH"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="XWh-AM-Hjm" secondAttribute="trailing" constant="12" id="W7n-f7-kvc"/>
                                                 <constraint firstItem="XWh-AM-Hjm" firstAttribute="trailing" secondItem="cgs-uc-spt" secondAttribute="trailing" id="Xc1-FS-C0K"/>
                                                 <constraint firstItem="XWh-AM-Hjm" firstAttribute="leading" secondItem="yWU-SQ-cct" secondAttribute="trailing" constant="9" id="Z66-NV-bKh"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="cgs-uc-spt" secondAttribute="trailing" constant="12" id="bqM-zL-AKK"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="cgs-uc-spt" secondAttribute="trailing" constant="12" id="goV-Bc-ZHG"/>
                                                 <constraint firstItem="cgs-uc-spt" firstAttribute="leading" secondItem="yWU-SQ-cct" secondAttribute="trailing" constant="9" id="hzc-4T-o4n"/>
                                                 <constraint firstItem="yWU-SQ-cct" firstAttribute="leading" secondItem="bG9-mo-j6V" secondAttribute="leadingMargin" constant="2" id="knL-CG-DVt"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="XWh-AM-Hjm" secondAttribute="trailing" constant="12" id="q9C-cd-jmb"/>
                                                 <constraint firstItem="cgs-uc-spt" firstAttribute="trailing" secondItem="kFz-rx-kER" secondAttribute="trailing" id="rl5-SE-qDV"/>
                                                 <constraint firstItem="cgs-uc-spt" firstAttribute="top" secondItem="W2Q-Pg-5MT" secondAttribute="bottom" id="rlj-w4-Ggd"/>
                                                 <constraint firstItem="kFz-rx-kER" firstAttribute="top" secondItem="bG9-mo-j6V" secondAttribute="topMargin" constant="14" id="tQJ-VZ-8CT"/>
@@ -224,6 +228,10 @@
                                             <variation key="default">
                                                 <mask key="constraints">
                                                     <exclude reference="uff-QT-tj1"/>
+                                                    <exclude reference="goV-Bc-ZHG"/>
+                                                    <exclude reference="rl5-SE-qDV"/>
+                                                    <exclude reference="Xc1-FS-C0K"/>
+                                                    <exclude reference="q9C-cd-jmb"/>
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
